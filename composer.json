@@ -1,0 +1,22 @@
+{
+  "name" : "ashswa/php_wechat",
+  "description" : "the wechat api library without framework dependency",
+  "version" : "1.1",
+  "require" : {
+    "php" : ">=5.1.0"
+  },
+  "authors" : [ {
+    "name" : "ashswa",
+    "email" : "390065583@qq.com"
+  } ],
+  "keywords" : [ "wechat", "weixin", "thinkphp", "sample","thinkphp5" ],
+  "support" : {
+  },
+  "autoload" : {
+    "psr-4" : {
+      "ashswa\\wechat\\" : "src"
+    }
+  },
+  "type" : "library",
+  "license" : "LGPL"
+}
